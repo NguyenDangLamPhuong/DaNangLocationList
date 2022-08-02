@@ -28,6 +28,14 @@
 		047638F528990EA100409948 /* LocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638F428990EA100409948 /* LocationRow.swift */; };
 		047638F728990F7700409948 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638F628990F7700409948 /* ModelData.swift */; };
 		047638FB28991A6D00409948 /* LocationImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638FA28991A6D00409948 /* LocationImage.swift */; };
+		047638FD28995D5300409948 /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 047638FC28995D5300409948 /* categories.json */; };
+		047638FF2899635B00409948 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638FE2899635B00409948 /* Category.swift */; };
+		04763901289965F100409948 /* ModelCategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763900289965F100409948 /* ModelCategoryData.swift */; };
+		04763903289967AD00409948 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763902289967AD00409948 /* CategoryRow.swift */; };
+		04763905289968D900409948 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763904289968D900409948 /* CategoryList.swift */; };
+		0476390728996DBB00409948 /* foodLocation.json in Resources */ = {isa = PBXBuildFile; fileRef = 0476390628996DBB00409948 /* foodLocation.json */; };
+		0476390928996DC500409948 /* drinkLocation.json in Resources */ = {isa = PBXBuildFile; fileRef = 0476390828996DC500409948 /* drinkLocation.json */; };
+		0476390B28996E7700409948 /* FoodLocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476390A28996E7600409948 /* FoodLocationList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +80,14 @@
 		047638F428990EA100409948 /* LocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRow.swift; sourceTree = "<group>"; };
 		047638F628990F7700409948 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		047638FA28991A6D00409948 /* LocationImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationImage.swift; sourceTree = "<group>"; };
+		047638FC28995D5300409948 /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
+		047638FE2899635B00409948 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		04763900289965F100409948 /* ModelCategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCategoryData.swift; sourceTree = "<group>"; };
+		04763902289967AD00409948 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		04763904289968D900409948 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		0476390628996DBB00409948 /* foodLocation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodLocation.json; sourceTree = "<group>"; };
+		0476390828996DC500409948 /* drinkLocation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinkLocation.json; sourceTree = "<group>"; };
+		0476390A28996E7600409948 /* FoodLocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLocationList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +194,9 @@
 				047638F028990C6900409948 /* InformationView.swift */,
 				047638F428990EA100409948 /* LocationRow.swift */,
 				047638FA28991A6D00409948 /* LocationImage.swift */,
+				04763902289967AD00409948 /* CategoryRow.swift */,
+				04763904289968D900409948 /* CategoryList.swift */,
+				0476390A28996E7600409948 /* FoodLocationList.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -185,10 +204,15 @@
 		047638E1289908B200409948 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				047638FC28995D5300409948 /* categories.json */,
 				047638E2289908E300409948 /* ColorConstants.swift */,
 				047638F228990E2700409948 /* locations.json */,
 				047638EA28990B6F00409948 /* Location.swift */,
+				0476390828996DC500409948 /* drinkLocation.json */,
 				047638F628990F7700409948 /* ModelData.swift */,
+				0476390628996DBB00409948 /* foodLocation.json */,
+				047638FE2899635B00409948 /* Category.swift */,
+				04763900289965F100409948 /* ModelCategoryData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,7 +321,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0476390728996DBB00409948 /* foodLocation.json in Resources */,
 				047638B5289904B000409948 /* Preview Assets.xcassets in Resources */,
+				047638FD28995D5300409948 /* categories.json in Resources */,
+				0476390928996DC500409948 /* drinkLocation.json in Resources */,
 				047638F328990E2700409948 /* locations.json in Resources */,
 				047638B2289904B000409948 /* Assets.xcassets in Resources */,
 			);
@@ -331,14 +358,19 @@
 				047638EB28990B6F00409948 /* Location.swift in Sources */,
 				047638E02899082A00409948 /* GreetingView.swift in Sources */,
 				047638F528990EA100409948 /* LocationRow.swift in Sources */,
+				047638FF2899635B00409948 /* Category.swift in Sources */,
 				047638AE289904AE00409948 /* DaNangLocationListApp.swift in Sources */,
 				047638FB28991A6D00409948 /* LocationImage.swift in Sources */,
+				0476390B28996E7700409948 /* FoodLocationList.swift in Sources */,
 				047638ED28990BDA00409948 /* MapView.swift in Sources */,
 				047638EF28990C0F00409948 /* CircleImage.swift in Sources */,
 				047638F128990C6900409948 /* InformationView.swift in Sources */,
 				047638E3289908E300409948 /* ColorConstants.swift in Sources */,
 				047638DE289907CC00409948 /* WellcomeView.swift in Sources */,
+				04763905289968D900409948 /* CategoryList.swift in Sources */,
 				047638F728990F7700409948 /* ModelData.swift in Sources */,
+				04763903289967AD00409948 /* CategoryRow.swift in Sources */,
+				04763901289965F100409948 /* ModelCategoryData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

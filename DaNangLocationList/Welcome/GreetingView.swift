@@ -11,51 +11,47 @@ struct GreetingView: View {
     @Binding var active: Bool
     var body: some View {
         ZStack{
-            ColorConstants.rmitBlue.ignoresSafeArea(.all, edges: .all)
+//            ColorConstants.rmitBlue.ignoresSafeArea(.all, edges: .all)
+            Image("Danang")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                //.frame(width: 450)
             
-            VStack(spacing: 20){
+            VStack(spacing: 100){
                 Spacer()
                 VStack(spacing: 0) {
-                    Text("Welcome")
+                    Text("Travel as")
                       .font(.system(size: 60))
                       .fontWeight(.heavy)
-                      .foregroundColor(.white)
-                    Text("""
-                    The Contact List is long,
-                    The Circle is small!
-                    """)
-                      .font(.title3)
-                      .fontWeight(.light)
-                      .foregroundColor(.white)
-                      .multilineTextAlignment(.center)
-                      .padding(.horizontal, 10)
+                      .foregroundColor(Color(uiColor: UIColor(red: 0.25, green: 0.25, blue: 0.26, alpha: 1.00)))
+                    Text("Local")
+                      .font(.system(size: 60))
+                      .fontWeight(.heavy)
+                      .foregroundColor(Color(uiColor: UIColor(red: 0.87, green: 0.45, blue: 0.06, alpha: 1.00)))
                     
                     
                 }
                 Spacer()
                 ZStack{
-                    CircleLayerView()
-                    Image("rmit-logo-white")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 300)
+                    //CircleLayerView()
+                    
                 }
                 
                 Spacer()
-
-
+                
                 Button(action: {
                     active = false
                 }, label: {
                     Capsule()
-                      .fill(Color.white.opacity(0.2))
+                      .fill(Color(uiColor: UIColor(red: 0.82, green: 0.53, blue: 0.30, alpha: 1.00)))
                       .padding(8)
-                      .frame(height:80)
+                      .frame( width: 400, height:80)
                       .overlay(Text("Get Started")
                         .font(.system(.title3, design: .rounded))
                         .fontWeight(.bold)
                         .foregroundColor(.white))
                 })
+                
             }
         }
     }

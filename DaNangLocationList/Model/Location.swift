@@ -11,7 +11,6 @@ import CoreLocation
 struct Location: Identifiable, Codable{
     var id: Int
     var name: String
-    var email: String
     var phone: String
     var address: String
     var description: String

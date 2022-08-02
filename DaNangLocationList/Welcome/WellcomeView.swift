@@ -14,7 +14,8 @@ struct WelcomeView: View {
             if isWelcomeActive {
                 GreetingView(active: $isWelcomeActive)
             } else {
-                LocationList()
+                CategoryList()
+                //LocationList()
             }
         }
     }
