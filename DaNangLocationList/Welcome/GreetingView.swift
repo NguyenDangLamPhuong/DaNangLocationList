@@ -21,22 +21,18 @@ struct GreetingView: View {
                 Spacer()
                 VStack(spacing: 0) {
                     Text("Travel as")
-                      .font(.system(size: 60))
+                        .font(.system(size:60, design: .rounded))
                       .fontWeight(.heavy)
                       .foregroundColor(Color(uiColor: UIColor(red: 0.25, green: 0.25, blue: 0.26, alpha: 1.00)))
                     Text("Local")
-                      .font(.system(size: 60))
+                      .font(.system(size: 60, design: .rounded))
                       .fontWeight(.heavy)
                       .foregroundColor(Color(uiColor: UIColor(red: 0.87, green: 0.45, blue: 0.06, alpha: 1.00)))
                     
                     
                 }
                 Spacer()
-                ZStack{
-                    //CircleLayerView()
-                    
-                }
-                
+                Spacer()
                 Spacer()
                 
                 Button(action: {
@@ -46,7 +42,7 @@ struct GreetingView: View {
                       .fill(Color(uiColor: UIColor(red: 0.82, green: 0.53, blue: 0.30, alpha: 1.00)))
                       .padding(8)
                       .frame( width: 400, height:80)
-                      .overlay(Text("Get Started")
+                      .overlay(Text("Let's go")
                         .font(.system(.title3, design: .rounded))
                         .fontWeight(.bold)
                         .foregroundColor(.white))

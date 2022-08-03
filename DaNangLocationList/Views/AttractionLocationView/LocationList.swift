@@ -1,30 +1,28 @@
 //
-//  FoodLocationList.swift
+//  LocationList.swift
 //  DaNangLocationList
 //
 //  Created by Mac on 02/08/2022.
 //
 
 import SwiftUI
-struct FoodLocationList: View {
-    var body: some View {
-        NavigationView {
-            List(foodLocations){
+struct LocationList: View {
+    var body: some View {     
+            List(locations){
                 location in
                 NavigationLink{
                     LocationCard(location: location)
                 } label: {
                     LocationRow(location: location)
                 }
-                .navigationTitle("Location List 📍")
+                .navigationTitle("Attraction List 📍")
             }
-        }
-        
+                
     }
 }
 
-struct FoodLocationList_Previews: PreviewProvider {
+struct LocationList_Previews: PreviewProvider {
     static var previews: some View {
-        FoodLocationList()
+        LocationList()
     }
 }

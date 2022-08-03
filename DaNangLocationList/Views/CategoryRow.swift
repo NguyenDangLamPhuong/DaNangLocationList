@@ -11,12 +11,15 @@ struct CategoryRow: View {
     var category: Category
     
     var body: some View {
+        
         HStack {
             category.image
                 .resizable()
-                .frame(width: 50, height: 50)
-            Text(category.name)
+                .aspectRatio(contentMode: .fit)
+                //.frame( height: 100)
+            //Text(category.name)
         }
+     
     }
 }
 

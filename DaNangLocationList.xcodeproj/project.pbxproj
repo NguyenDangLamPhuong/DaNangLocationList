@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04309DBE289A2FD2005B9B82 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04309DBD289A2FD2005B9B82 /* EmptyView.swift */; };
 		047638AE289904AE00409948 /* DaNangLocationListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638AD289904AE00409948 /* DaNangLocationListApp.swift */; };
 		047638B2289904B000409948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047638B1289904B000409948 /* Assets.xcassets */; };
 		047638B5289904B000409948 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047638B4289904B000409948 /* Preview Assets.xcassets */; };
@@ -17,7 +18,6 @@
 		047638DE289907CC00409948 /* WellcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638DD289907CC00409948 /* WellcomeView.swift */; };
 		047638E02899082A00409948 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638DF2899082A00409948 /* GreetingView.swift */; };
 		047638E3289908E300409948 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638E2289908E300409948 /* ColorConstants.swift */; };
-		047638E52899091600409948 /* CircleLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638E42899091600409948 /* CircleLayerView.swift */; };
 		047638E728990AA800409948 /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638E628990AA800409948 /* LocationList.swift */; };
 		047638E928990B0300409948 /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638E828990B0300409948 /* LocationCard.swift */; };
 		047638EB28990B6F00409948 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638EA28990B6F00409948 /* Location.swift */; };
@@ -36,6 +36,7 @@
 		0476390728996DBB00409948 /* foodLocation.json in Resources */ = {isa = PBXBuildFile; fileRef = 0476390628996DBB00409948 /* foodLocation.json */; };
 		0476390928996DC500409948 /* drinkLocation.json in Resources */ = {isa = PBXBuildFile; fileRef = 0476390828996DC500409948 /* drinkLocation.json */; };
 		0476390B28996E7700409948 /* FoodLocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476390A28996E7600409948 /* FoodLocationList.swift */; };
+		04CF9187289A72EE00DC4335 /* DrinkLocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF9186289A72EE00DC4335 /* DrinkLocationList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04309DBD289A2FD2005B9B82 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		047638AA289904AE00409948 /* DaNangLocationList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaNangLocationList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047638AD289904AE00409948 /* DaNangLocationListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaNangLocationListApp.swift; sourceTree = "<group>"; };
 		047638B1289904B000409948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,7 +71,6 @@
 		047638DD289907CC00409948 /* WellcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeView.swift; sourceTree = "<group>"; };
 		047638DF2899082A00409948 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
 		047638E2289908E300409948 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
-		047638E42899091600409948 /* CircleLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLayerView.swift; sourceTree = "<group>"; };
 		047638E628990AA800409948 /* LocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationList.swift; sourceTree = "<group>"; };
 		047638E828990B0300409948 /* LocationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
 		047638EA28990B6F00409948 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 		0476390628996DBB00409948 /* foodLocation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodLocation.json; sourceTree = "<group>"; };
 		0476390828996DC500409948 /* drinkLocation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinkLocation.json; sourceTree = "<group>"; };
 		0476390A28996E7600409948 /* FoodLocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLocationList.swift; sourceTree = "<group>"; };
+		04CF9186289A72EE00DC4335 /* DrinkLocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkLocationList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +178,17 @@
 		047638DB289906D600409948 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04CF9184289A700B00DC4335 /* FoodLocationView */,
+				04CF9183289A6FA000DC4335 /* AttractionLocationView */,
+				04309DBD289A2FD2005B9B82 /* EmptyView.swift */,
+				047638F428990EA100409948 /* LocationRow.swift */,
+				04763904289968D900409948 /* CategoryList.swift */,
+				04763902289967AD00409948 /* CategoryRow.swift */,
+				047638F028990C6900409948 /* InformationView.swift */,
+				047638EE28990C0F00409948 /* CircleImage.swift */,
+				047638EC28990BDA00409948 /* MapView.swift */,
 				047638D9289906B100409948 /* ContentView.swift */,
+				04CF9186289A72EE00DC4335 /* DrinkLocationList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,17 +198,6 @@
 			children = (
 				047638DD289907CC00409948 /* WellcomeView.swift */,
 				047638DF2899082A00409948 /* GreetingView.swift */,
-				047638E42899091600409948 /* CircleLayerView.swift */,
-				047638E628990AA800409948 /* LocationList.swift */,
-				047638E828990B0300409948 /* LocationCard.swift */,
-				047638EC28990BDA00409948 /* MapView.swift */,
-				047638EE28990C0F00409948 /* CircleImage.swift */,
-				047638F028990C6900409948 /* InformationView.swift */,
-				047638F428990EA100409948 /* LocationRow.swift */,
-				047638FA28991A6D00409948 /* LocationImage.swift */,
-				04763902289967AD00409948 /* CategoryRow.swift */,
-				04763904289968D900409948 /* CategoryList.swift */,
-				0476390A28996E7600409948 /* FoodLocationList.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -215,6 +216,24 @@
 				04763900289965F100409948 /* ModelCategoryData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		04CF9183289A6FA000DC4335 /* AttractionLocationView */ = {
+			isa = PBXGroup;
+			children = (
+				047638E828990B0300409948 /* LocationCard.swift */,
+				047638E628990AA800409948 /* LocationList.swift */,
+				047638FA28991A6D00409948 /* LocationImage.swift */,
+			);
+			path = AttractionLocationView;
+			sourceTree = "<group>";
+		};
+		04CF9184289A700B00DC4335 /* FoodLocationView */ = {
+			isa = PBXGroup;
+			children = (
+				0476390A28996E7600409948 /* FoodLocationList.swift */,
+			);
+			path = FoodLocationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,8 +371,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				047638E928990B0300409948 /* LocationCard.swift in Sources */,
-				047638E52899091600409948 /* CircleLayerView.swift in Sources */,
 				047638DA289906B100409948 /* ContentView.swift in Sources */,
+				04CF9187289A72EE00DC4335 /* DrinkLocationList.swift in Sources */,
 				047638E728990AA800409948 /* LocationList.swift in Sources */,
 				047638EB28990B6F00409948 /* Location.swift in Sources */,
 				047638E02899082A00409948 /* GreetingView.swift in Sources */,
@@ -370,6 +389,7 @@
 				04763905289968D900409948 /* CategoryList.swift in Sources */,
 				047638F728990F7700409948 /* ModelData.swift in Sources */,
 				04763903289967AD00409948 /* CategoryRow.swift in Sources */,
+				04309DBE289A2FD2005B9B82 /* EmptyView.swift in Sources */,
 				04763901289965F100409948 /* ModelCategoryData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
