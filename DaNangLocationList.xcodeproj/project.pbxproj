@@ -30,7 +30,6 @@
 		047638FB28991A6D00409948 /* LocationImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638FA28991A6D00409948 /* LocationImage.swift */; };
 		047638FD28995D5300409948 /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 047638FC28995D5300409948 /* categories.json */; };
 		047638FF2899635B00409948 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638FE2899635B00409948 /* Category.swift */; };
-		04763901289965F100409948 /* ModelCategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763900289965F100409948 /* ModelCategoryData.swift */; };
 		04763903289967AD00409948 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763902289967AD00409948 /* CategoryRow.swift */; };
 		04763905289968D900409948 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04763904289968D900409948 /* CategoryList.swift */; };
 		0476390728996DBB00409948 /* foodLocation.json in Resources */ = {isa = PBXBuildFile; fileRef = 0476390628996DBB00409948 /* foodLocation.json */; };
@@ -83,7 +82,6 @@
 		047638FA28991A6D00409948 /* LocationImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationImage.swift; sourceTree = "<group>"; };
 		047638FC28995D5300409948 /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
 		047638FE2899635B00409948 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		04763900289965F100409948 /* ModelCategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCategoryData.swift; sourceTree = "<group>"; };
 		04763902289967AD00409948 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		04763904289968D900409948 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
 		0476390628996DBB00409948 /* foodLocation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodLocation.json; sourceTree = "<group>"; };
@@ -213,7 +211,6 @@
 				047638F628990F7700409948 /* ModelData.swift */,
 				0476390628996DBB00409948 /* foodLocation.json */,
 				047638FE2899635B00409948 /* Category.swift */,
-				04763900289965F100409948 /* ModelCategoryData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -390,7 +387,6 @@
 				047638F728990F7700409948 /* ModelData.swift in Sources */,
 				04763903289967AD00409948 /* CategoryRow.swift in Sources */,
 				04309DBE289A2FD2005B9B82 /* EmptyView.swift in Sources */,
-				04763901289965F100409948 /* ModelCategoryData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
