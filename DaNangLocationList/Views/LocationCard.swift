@@ -17,12 +17,8 @@ struct LocationCard: View {
     
     var body: some View {
         ZStack {
-//        ColorConstants.rmitBlue
-//            .edgesIgnoringSafeArea(.bottom)
-        ScrollView {
-            
+            ScrollView {
                 VStack {
-
                     LocationImage(image: location.image)
                         //.offset(y: -100)
                         //.padding(.bottom, -100)

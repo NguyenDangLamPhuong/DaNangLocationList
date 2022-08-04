@@ -176,9 +176,11 @@
 		047638DB289906D600409948 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				04CF9184289A700B00DC4335 /* FoodLocationView */,
-				04CF9183289A6FA000DC4335 /* AttractionLocationView */,
 				04309DBD289A2FD2005B9B82 /* EmptyView.swift */,
+				047638FA28991A6D00409948 /* LocationImage.swift */,
+				047638E628990AA800409948 /* LocationList.swift */,
+				047638E828990B0300409948 /* LocationCard.swift */,
+				0476390A28996E7600409948 /* FoodLocationList.swift */,
 				047638F428990EA100409948 /* LocationRow.swift */,
 				04763904289968D900409948 /* CategoryList.swift */,
 				04763902289967AD00409948 /* CategoryRow.swift */,
@@ -213,24 +215,6 @@
 				047638FE2899635B00409948 /* Category.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		04CF9183289A6FA000DC4335 /* AttractionLocationView */ = {
-			isa = PBXGroup;
-			children = (
-				047638E828990B0300409948 /* LocationCard.swift */,
-				047638E628990AA800409948 /* LocationList.swift */,
-				047638FA28991A6D00409948 /* LocationImage.swift */,
-			);
-			path = AttractionLocationView;
-			sourceTree = "<group>";
-		};
-		04CF9184289A700B00DC4335 /* FoodLocationView */ = {
-			isa = PBXGroup;
-			children = (
-				0476390A28996E7600409948 /* FoodLocationList.swift */,
-			);
-			path = FoodLocationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -547,6 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DaNangLocationList/Preview Content\"";
+				DEVELOPMENT_TEAM = 29K5PA53YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -575,6 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DaNangLocationList/Preview Content\"";
+				DEVELOPMENT_TEAM = 29K5PA53YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

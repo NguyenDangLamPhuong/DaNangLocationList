@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "imageName": "TouristAttractionUpdate",
+      "name": "Tourist Attraction",
+      "type":"travel",
+      "icon": "🏔"
+    },
+    {
+      "id": 2,
+      "imageName": "FoodAndDrinnkUpdate",
+      "name": "Food And Drink",
+      "type":"food",
+      "icon": "🏔"
+    },
+    {
+      "id": 3,
+      "imageName": "BarUpdate",
+      "name": "Bar",
+      "type":"bar",
+      "icon": "🏔"
+    },
+ 
+]

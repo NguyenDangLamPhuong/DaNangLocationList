@@ -37,6 +37,7 @@ struct LocationRow: View {
             }
             
         }
+        
     }
 }
 

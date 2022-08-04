@@ -12,17 +12,18 @@
 
 import SwiftUI
 struct LocationList: View {
-    var body: some View {     
-            List(locations){
-                location in
-                NavigationLink{
-                    LocationCard(location: location)
-                } label: {
-                    LocationRow(location: location)
-                }
-                .navigationTitle("Attraction List 📍")
+    var body: some View {
+        List(locations){
+            location in
+            NavigationLink{
+                LocationCard(location: location)
+            } label: {
+                LocationRow(location: location)
             }
-                
+            .navigationTitle("Attraction List 📍")
+        }
+        
+        
     }
 }
 

@@ -14,53 +14,40 @@ import SwiftUI
 struct CategoryList: View {
     var body: some View {
         NavigationView {
-//            List(categories){
-//                category in
-//                NavigationLink{
-//                    LocationList()
-//                } label: {
-//
-//                    CategoryRow(category: category)
-//                }
-//                .navigationTitle("Categories 🔖")
-//            }
-            List(){
+            
+            var _ = print(categories)
+            List(categories){
+                category in
                 NavigationLink{
+                    switch category.type{
+                    case .travel:
                         LocationList()
-                    } label: {
-                        HStack {
-                            Image("TouristAttractionUpdate")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                        }
-                    }
-                    
-                
-                NavigationLink{
+                    case .food:
                         FoodLocationList()
-                    } label: {
-                        HStack {
-                            Image("FoodAndDrinnkUpdate")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                        }
-                    }
-                NavigationLink{
+                    case .bar:
                         DrinkLocationList()
-                    } label: {
-                        HStack {
-                            Image("BarUpdate")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                        }
+                    default:
+                        Text("Oh noooo!")
                     }
-                    .navigationTitle("Categories 🔖")
-                    .buttonStyle(PlainButtonStyle())
+//                    switch category.id{
+//                    case 1:
+//                        LocationList()
+//                    case 2:
+//                        FoodLocationList()
+//                    case 3:
+//                        DrinkLocationList()
+//                    default:
+//                        Text("Oh noooo!")
+//                    }
+                    
+                } label: {
+
+                    CategoryRow(category: category)
+                }
+                .navigationTitle("Categories 🔖")
+
             }
         }
-       // .navigationBarTitleDisplayMode(.inline)
-        
-        
     }
 }
 
