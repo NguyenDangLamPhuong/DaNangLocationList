@@ -1,0 +1,60 @@
+
+[
+    {
+      "id": 1,
+      "phone": "02363791999",
+      "imageName": "bana",
+      "name": "Ba Na Hill",
+      "coordinates": {
+          "latitude": 16.02675660211777,
+          "longitude": 108.03273272854253
+      },
+      "description": "As part of Sun World Amusement Park Group and over 20 km away from Danang downtown, Sun World ba Na Hills is the most significant resort and recreational complex in Vietnam. At the height of 1,487 m from sea level, Sun World Ba Na Hills has been coined the “heaven on earth” owing to its spectacular climate and otherworldly natural landscape. Just travel to Sun World Ba Na Hills and revel in the typical rotation of four seasons in a single day and numerous festivities, recreations and relaxation, and cuisine. For four years in a row from 2015 to 2018, Sun World Ba Na Hills was bestowed the accolade of Top Tourist Resort of Vietnam by the Vietnam Association of Tourism. Through 11 years in operation and unabated development, Sun World Ba Na Hills has emerged to be a common place for domestic and foreign visitors in Danang.",
+      "address": "An Son village, Hoa Ninh commune, Hoa Vang district, Da Nang city",
+      "icon": "🏔",
+      "link":"https://banahills.sunworld.vn"
+    },
+    {
+      "id": 2,
+      "phone": "0911305568",
+      "imageName": "AsiaPark",
+      "name": "Asia Park",
+      "coordinates": {
+          "latitude": 16.038588302269456,
+          "longitude": 108.22669655561162
+      },
+      "description": "Aiming to commence a world-class amusement complex in Vietnam, Sun Group opted for Danang – a coastal tourist city on the narrow Central swathe of Vietnam to be the site of a great amusement and entertainment park by the name of Asia Park. Spanning a total area of 868,694sqm on the western bank of Han River, Asia Park amusement park blends a string of unique and unseen features of entertainment models of the world and a ubiquitous touch of Oriental culture. Asia Park comprises three major zones: a modern outdoor park, a cultural park that consists of mini architectural works and artworks to symbolize 10 Asian countries, and the Sun Wheel – a hybrid ensemble of the old and the new.",
+      "address": "1 Phan Đăng Lưu, Hoà Cường Bắc, Hải Châu, Đà Nẵng, Vietnam",
+      "icon": "🎡",
+      "link":"https://asiapark.sunworld.vn"
+    },
+    {
+      "id": 3,
+      "phone": "0911305568",
+      "imageName": "PhamVanDongBeach",
+      "name": "Pham Van Dong Beach",
+      "coordinates": {
+          "latitude": 16.074264808583926,
+          "longitude": 108.24695932043502
+      },
+      "description": "Danang is recognized as the city of the sea. Pham Van Dong Beach is known as the converging beach fully equipped with modern conveniences for tourism. It is also considered as a beautiful beach that represents the sea of Da Nang, the ideal destination for sightseeing, tourism, and Da Nang weddings. Pham Van Dong beach is in Son Tra district, at the end of Pham Van Dong street. This is one of the communal bathing beaches that have been upgraded well, serving about 3,500 to 4,000 people coming here to shower every day, which has shown the irresistible charming beauty of the beach. Also, the Pham Van Dong beach in Da Nang is voted by Forbes as one of the five most beautiful beaches in the world, connecting many resorts in the coastal.",
+      "address": "Phạm Văn Đồng Street, An Hải Bắc, Sơn Trà, Đà Nẵng, Vietnam",
+      "icon": "🏖",
+      "link":"No Data"
+    },
+    {
+      "id": 4,
+      "phone": "0911305568",
+      "imageName": "LingUngPagoda",
+      "name": "Linh Ung Pagoda",
+      "coordinates": {
+          "latitude": 16.1079717,
+          "longitude":  108.2251805,
+      },
+      "description": "The Linh Ung Pagoda is the largest pagoda in regards to scale and architecture, making it a must see for travellers and locals alike. It also contains the Lady Buddha (often referred to as this) which is an enormous 67 metres high, equivalent to a 30 story building. The local people believe that this special statue plays a variety of roles; not only to protect the fisherman throughout this region, but to also give them boundless strength for facing the storms that the ocean may conjure. The pagoda consists of a beautiful blend of modern and traditional architecture and is renowned for clearing the minds of visitors, whilst offering a stunning panoramic of the Da Nang peninsula. Fascinatingly, Linh Ung Pagoda is considered a modern mark of Buddhism within Vietnamese society today.",
+      "address": "2 Hồ Tông Thốc, Nghi Phan, Thành phố Vinh, Nghệ An, Vietnam",
+      "icon": "⛰",
+      "link":"No Data"
+    },
+    
+]

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04309DBE289A2FD2005B9B82 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04309DBD289A2FD2005B9B82 /* EmptyView.swift */; };
 		047638AE289904AE00409948 /* DaNangLocationListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638AD289904AE00409948 /* DaNangLocationListApp.swift */; };
 		047638B2289904B000409948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047638B1289904B000409948 /* Assets.xcassets */; };
 		047638B5289904B000409948 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047638B4289904B000409948 /* Preview Assets.xcassets */; };
@@ -22,8 +21,6 @@
 		047638E928990B0300409948 /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638E828990B0300409948 /* LocationCard.swift */; };
 		047638EB28990B6F00409948 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638EA28990B6F00409948 /* Location.swift */; };
 		047638ED28990BDA00409948 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638EC28990BDA00409948 /* MapView.swift */; };
-		047638EF28990C0F00409948 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638EE28990C0F00409948 /* CircleImage.swift */; };
-		047638F128990C6900409948 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638F028990C6900409948 /* InformationView.swift */; };
 		047638F328990E2700409948 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 047638F228990E2700409948 /* locations.json */; };
 		047638F528990EA100409948 /* LocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638F428990EA100409948 /* LocationRow.swift */; };
 		047638F728990F7700409948 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047638F628990F7700409948 /* ModelData.swift */; };
@@ -56,7 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04309DBD289A2FD2005B9B82 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		047638AA289904AE00409948 /* DaNangLocationList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaNangLocationList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047638AD289904AE00409948 /* DaNangLocationListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaNangLocationListApp.swift; sourceTree = "<group>"; };
 		047638B1289904B000409948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,8 +70,6 @@
 		047638E828990B0300409948 /* LocationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
 		047638EA28990B6F00409948 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		047638EC28990BDA00409948 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		047638EE28990C0F00409948 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		047638F028990C6900409948 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		047638F228990E2700409948 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		047638F428990EA100409948 /* LocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRow.swift; sourceTree = "<group>"; };
 		047638F628990F7700409948 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -176,7 +170,6 @@
 		047638DB289906D600409948 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				04309DBD289A2FD2005B9B82 /* EmptyView.swift */,
 				047638FA28991A6D00409948 /* LocationImage.swift */,
 				047638E628990AA800409948 /* LocationList.swift */,
 				047638E828990B0300409948 /* LocationCard.swift */,
@@ -184,8 +177,6 @@
 				047638F428990EA100409948 /* LocationRow.swift */,
 				04763904289968D900409948 /* CategoryList.swift */,
 				04763902289967AD00409948 /* CategoryRow.swift */,
-				047638F028990C6900409948 /* InformationView.swift */,
-				047638EE28990C0F00409948 /* CircleImage.swift */,
 				047638EC28990BDA00409948 /* MapView.swift */,
 				047638D9289906B100409948 /* ContentView.swift */,
 				04CF9186289A72EE00DC4335 /* DrinkLocationList.swift */,
@@ -205,16 +196,24 @@
 		047638E1289908B200409948 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				047638FC28995D5300409948 /* categories.json */,
+				04C2DC2A289FE44600E582E3 /* JsonFIle */,
 				047638E2289908E300409948 /* ColorConstants.swift */,
-				047638F228990E2700409948 /* locations.json */,
-				047638EA28990B6F00409948 /* Location.swift */,
-				0476390828996DC500409948 /* drinkLocation.json */,
-				047638F628990F7700409948 /* ModelData.swift */,
-				0476390628996DBB00409948 /* foodLocation.json */,
 				047638FE2899635B00409948 /* Category.swift */,
+				047638EA28990B6F00409948 /* Location.swift */,
+				047638F628990F7700409948 /* ModelData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		04C2DC2A289FE44600E582E3 /* JsonFIle */ = {
+			isa = PBXGroup;
+			children = (
+				0476390628996DBB00409948 /* foodLocation.json */,
+				0476390828996DC500409948 /* drinkLocation.json */,
+				047638FC28995D5300409948 /* categories.json */,
+				047638F228990E2700409948 /* locations.json */,
+			);
+			path = JsonFIle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,14 +362,11 @@
 				047638FB28991A6D00409948 /* LocationImage.swift in Sources */,
 				0476390B28996E7700409948 /* FoodLocationList.swift in Sources */,
 				047638ED28990BDA00409948 /* MapView.swift in Sources */,
-				047638EF28990C0F00409948 /* CircleImage.swift in Sources */,
-				047638F128990C6900409948 /* InformationView.swift in Sources */,
 				047638E3289908E300409948 /* ColorConstants.swift in Sources */,
 				047638DE289907CC00409948 /* WellcomeView.swift in Sources */,
 				04763905289968D900409948 /* CategoryList.swift in Sources */,
 				047638F728990F7700409948 /* ModelData.swift in Sources */,
 				04763903289967AD00409948 /* CategoryRow.swift in Sources */,
-				04309DBE289A2FD2005B9B82 /* EmptyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
